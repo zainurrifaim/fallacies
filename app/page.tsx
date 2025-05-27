@@ -248,7 +248,7 @@ export default function LogicalFallacyDetector() {
                         </div>
                         <div>
                           <h4 className="font-semibold text-slate-700 mb-1">Example</h4>
-                          <p className="italic text-slate-600">"{fallacy.example}"</p>
+                          <p className="italic text-slate-600">"&quot;{fallacy.example}&quot;</p>
                         </div>
                       </CardContent>
                     </Card>

@@ -18,6 +18,10 @@ interface FullFallacy {
   altNames: string[];
 }
 
+interface AnalyzedFallacy extends FullFallacy {
+  explanation: string;
+}
+
 export async function POST(request: NextRequest) {
   try {
     const { text } = await request.json();
@@ -61,7 +65,7 @@ JSON Response:`;
       temperature: 0.1,
     });
 
-    let fallaciesResult: any[] = [];
+    let fallaciesResult: AnalyzedFallacy[] = [];
 
     try {
       const cleanResponse = aiResponse.trim();
@@ -88,6 +92,7 @@ JSON Response:`;
                 logicalForm: fullFallacy.logicalForm,
                 example: fullFallacy.example,
                 category: fullFallacy.category,
+                altNames: fullFallacy.altNames, // Add this line
                 explanation: detected.explanation || "This fallacy was detected in your text.",
               };
             }
