@@ -38,6 +38,10 @@ interface Fallacy {
   explanation: string
 }
 
+interface DebugInfo {
+  rawResponse: string;
+}
+
 const exampleTexts = [
   "You can't trust John's opinion on climate change because he's not a scientist.",
   "Everyone is buying this product, so it must be good.",
@@ -61,7 +65,7 @@ export default function LogicalFallacyDetector() {
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState("")
   const [hasAnalyzed, setHasAnalyzed] = useState(false)
-  const [debugInfo, setDebugInfo] = useState<any>(null)
+  const [debugInfo, setDebugInfo] = useState<DebugInfo | null>(null)
 
   const handleExampleLoad = (example: string) => {
     setText(example)
@@ -106,9 +110,14 @@ export default function LogicalFallacyDetector() {
       setFallacies(Array.isArray(data.fallacies) ? data.fallacies : [])
       setDebugInfo(data.debug)
       setHasAnalyzed(true)
-    } catch (err: any) {
-      console.error("Analysis error:", err)
-      setError(err.message || "Unexpected error occurred")
+    } catch (err) {
+      if (err instanceof Error) {
+        console.error("Analysis error:", err);
+        setError(err.message || "Unexpected error occurred");
+      } else {
+        console.error("Unknown error:", err);
+        setError("Unexpected error occurred");
+      }
       setFallacies([])
     } finally {
       setIsLoading(false)
@@ -248,7 +257,7 @@ export default function LogicalFallacyDetector() {
                         </div>
                         <div>
                           <h4 className="font-semibold text-slate-700 mb-1">Example</h4>
-                          <p className="italic text-slate-600">"&quot;{fallacy.example}&quot;</p>
+                          <p className="italic text-slate-600">&quot;{fallacy.example}&quot;</p>
                         </div>
                       </CardContent>
                     </Card>
