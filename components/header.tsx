@@ -1,5 +1,6 @@
 import Link from "next/link"
 import MobileMenu from "@/components/mobile-menu"
+import { Lightbulb } from "lucide-react"
 
 export default function Header() {
   return (
@@ -9,7 +10,7 @@ export default function Header() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-neutral-950 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">LF</span>
+                <Lightbulb className="w-5 h-5 text-white" />
               </div>
               <h1 className="text-xl font-bold text-neutral-950 truncate">
                 <span className="hidden sm:inline">Logical Fallacy Checker</span>
