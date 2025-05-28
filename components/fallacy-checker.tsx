@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { AlertCircle, CheckCircle, Lightbulb } from "lucide-react"
+import { AlertCircle, CheckCircle } from "lucide-react"
 
 interface AnalyzedFallacy {
   name: string
@@ -111,6 +111,24 @@ export default function FallacyChecker() {
             />
           </div>
 
+          {/* Add example buttons here */}
+          <div>
+            <p className="text-sm text-neutral-600 mb-3">Quick examples:</p>
+            <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
+              {exampleTexts.map((example, index) => (
+                <Button
+                  key={index}
+                  variant="outline"
+                  size="sm"
+                  onClick={() => loadExample(example)}
+                  className="border-neutral-300 text-neutral-700 hover:bg-neutral-50 text-xs"
+                >
+                  Example {index + 1}
+                </Button>
+              ))}
+            </div>
+          </div>
+
           <div className="flex flex-col gap-3 sm:flex-row sm:gap-4">
             <Button
               onClick={analyzeText}
@@ -138,33 +156,6 @@ export default function FallacyChecker() {
             >
               Clear
             </Button>
-          </div>
-        </CardContent>
-      </Card>
-
-      {/* Example Texts */}
-      <Card className="mb-6 sm:mb-8 shadow-lg border-neutral-300">
-        <CardHeader>
-          <CardTitle className="text-lg sm:text-xl text-neutral-950 flex items-center">
-            <Lightbulb className="w-5 h-5 mr-2 flex-shrink-0" />
-            Try These Examples
-          </CardTitle>
-          <CardDescription className="text-neutral-700">
-            Click any example below to analyze it for logical fallacies.
-          </CardDescription>
-        </CardHeader>
-        <CardContent>
-          <div className="grid grid-cols-1 gap-3 sm:gap-4">
-            {exampleTexts.map((example, index) => (
-              <Button
-                key={index}
-                variant="outline"
-                onClick={() => loadExample(example)}
-                className="h-auto p-3 sm:p-4 text-left justify-start border-neutral-300 hover:bg-neutral-50 text-neutral-700 whitespace-normal"
-              >
-                <span className="text-sm leading-relaxed break-words text-left">"{example}"</span>
-              </Button>
-            ))}
           </div>
         </CardContent>
       </Card>
