@@ -63,16 +63,6 @@ export default function ExamplesSection() {
         <div className="max-w-4xl mx-auto">
           <Card className="border-neutral-300 shadow-lg">
             <CardHeader className="pb-4">
-              <div className="flex flex-wrap items-start justify-between gap-2 mb-4">
-                <CardTitle className="text-2xl text-neutral-950 flex items-center">
-                  <AlertCircle className="w-6 h-6 mr-2 text-orange-600" />
-                  {currentFallacy.name}
-                </CardTitle>
-                <Badge variant="outline" className={getCategoryColor(currentFallacy.category)}>
-                  {currentFallacy.category}
-                </Badge>
-              </div>
-
               <div className="text-center">
                 <Button
                   onClick={getRandomFallacy}
@@ -82,6 +72,16 @@ export default function ExamplesSection() {
                   <RefreshCw className="w-4 h-4 mr-2" />
                   Show Another Example
                 </Button>
+              </div>
+              
+              <div className="flex flex-wrap items-start justify-between gap-2 mb-4">
+                <CardTitle className="text-2xl text-neutral-950 flex items-center">
+                  <AlertCircle className="w-6 h-6 mr-2 text-orange-600" />
+                  {currentFallacy.name}
+                </CardTitle>
+                <Badge variant="outline" className={getCategoryColor(currentFallacy.category)}>
+                  {currentFallacy.category}
+                </Badge>
               </div>
             </CardHeader>
 

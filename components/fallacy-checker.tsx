@@ -129,7 +129,7 @@ export default function FallacyChecker() {
             </div>
           </div>
 
-          <div className="flex flex-col gap-3 sm:flex-row sm:gap-4">
+          <div className="flex flex-col gap-3 sm:flex-row sm:gap-4 sm:justify-center">
             <Button
               onClick={analyzeText}
               disabled={!text.trim() || loading}
