@@ -1,0 +1,2045 @@
+[
+  {
+    "name": "Abusive Ad Hominem",
+    "altNames": [],
+    "description": "See Ad Hominem.",
+    "logicalForm": "Person A makes claim X. Person A has negative trait Y. Therefore, claim X is false.",
+    "example": "You can't trust John's opinion on climate change because he's been divorced twice.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Accent",
+    "altNames": ["Accentus", "Misleading Accent", "Prosody"],
+    "description": "The Accent Fallacy is a fallacy of ambiguity due to the different ways a word or syllable is emphasized or accented.",
+    "logicalForm": "Phrase P has meaning M when emphasized one way. Phrase P has different meaning N when emphasized differently. Therefore, P is ambiguous.",
+    "example": "A contract states: 'This agreement may be terminated with 30 days notice.' Emphasizing 'may' suggests optional termination, while emphasizing 'terminated' suggests mandatory termination.",
+    "category": "Ambiguity Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Accentus",
+    "altNames": [],
+    "description": "See the Fallacy of Accent.",
+    "logicalForm": "Same as Accent fallacy",
+    "example": "Same as Accent fallacy",
+    "category": "Ambiguity Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Accident",
+    "altNames": ["Sweeping Generalization"],
+    "description": "We often arrive at a generalization but don't or can't list all the exceptions.",
+    "logicalForm": "General rule G applies to most cases. Therefore, G applies to this specific case (ignoring exceptions).",
+    "example": "Cutting people with knives is illegal (surgery exception). Therefore, surgeons should be arrested.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Ad Baculum",
+    "altNames": [],
+    "description": "See Scare Tactic and Appeal to Emotions (Fear).",
+    "logicalForm": "If you don't accept X, then bad consequence Y will happen to you. Therefore, accept X.",
+    "example": "You should agree with my political views or you might find your car vandalized.",
+    "category": "Appeal to Emotion",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Ad Consequentiam",
+    "altNames": [],
+    "description": "See Appeal to Consequence.",
+    "logicalForm": "I wish X were true/false. Therefore, X is true/false.",
+    "example": "I don't believe in climate change because addressing it would hurt the economy.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Ad Crumenum",
+    "altNames": [],
+    "description": "See Appeal to Money.",
+    "logicalForm": "Person/Position X is wealthy. Therefore, X is correct/credible.",
+    "example": "This financial advice must be good because it comes from a billionaire.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Ad Hoc Rescue",
+    "altNames": [],
+    "description": "Psychologically, it is understandable that you would try to rescue a cherished belief from trouble.",
+    "logicalForm": "Evidence E challenges theory T. Instead of rejecting T, add unsupported modification M to preserve T.",
+    "example": "Astrologer: Your horoscope said you'd meet someone important today! You: I met my mail carrier. Astrologer: That counts! Mail carriers are important!",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Ad Hominem",
+    "altNames": ["Against the Person"],
+    "description": "Your reasoning contains this fallacy if you make an irrelevant attack on the person arguing and suggest that this attack undermines the argument itself.",
+    "logicalForm": "Person A makes claim X. Person A has negative characteristic Y. Therefore, claim X is false.",
+    "example": "We should reject Mary's proposal for school reform because she dresses unfashionably.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Ad Hominem, Circumstantial",
+    "altNames": [],
+    "description": "See Guilt by Association.",
+    "logicalForm": "Person A makes claim X. Person A belongs to group G (which I dislike). Therefore, claim X is false.",
+    "example": "Don't listen to her environmental proposals - she belongs to the Sierra Club!",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Ad Ignorantiam",
+    "altNames": [],
+    "description": "See Appeal to Ignorance.",
+    "logicalForm": "X has not been proven false. Therefore, X is true. OR X has not been proven true. Therefore, X is false.",
+    "example": "No one has proven aliens don't exist, so they must exist.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Ad Misericordiam",
+    "altNames": [],
+    "description": "See Appeal to Emotions.",
+    "logicalForm": "Appealing to pity to support a conclusion",
+    "example": "Professor, I deserve an A because my dog died during finals week.",
+    "category": "Appeal to Emotion",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Ad Novitatem",
+    "altNames": [],
+    "description": "See Bandwagon.",
+    "logicalForm": "X is new. Therefore, X is better than old alternatives.",
+    "example": "Our software is the latest version, so it must be superior to competitors' products.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Ad Numerum",
+    "altNames": [],
+    "description": "See Appeal to the People.",
+    "logicalForm": "Many people believe X. Therefore, X is true.",
+    "example": "Millions of people believe in astrology, so it must be valid.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Ad Populum",
+    "altNames": [],
+    "description": "See Appeal to the People.",
+    "logicalForm": "Most people believe X. Therefore, X is true.",
+    "example": "Everyone knows that brand is best, so you should buy it too.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Ad Verecundiam",
+    "altNames": [],
+    "description": "See Appeal to Authority.",
+    "logicalForm": "Person A (inappropriate authority) claims X. Therefore, X is true.",
+    "example": "A famous actor endorses this medical treatment, so it must be effective.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Affirming the Consequent",
+    "altNames": [],
+    "description": "If you have enough evidence to affirm the consequent of a conditional and then suppose that as a result you have sufficient reason for affirming the antecedent...",
+    "logicalForm": "If P then Q. Q is true. Therefore, P is true.",
+    "example": "If it's raining, the streets are wet. The streets are wet. Therefore, it's raining. (Ignores other causes like street cleaning)",
+    "category": "Formal Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Against the Person",
+    "altNames": [],
+    "description": "See Ad Hominem.",
+    "logicalForm": "Same as Ad Hominem",
+    "example": "Same as Ad Hominem",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "All-or-Nothing",
+    "altNames": [],
+    "description": "See Black-or-White Fallacy.",
+    "logicalForm": "Presenting only two alternatives when more exist",
+    "example": "Either you support unlimited gun rights or you want to take all guns away.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Ambiguity",
+    "altNames": [],
+    "description": "Any fallacy that turns on ambiguity.",
+    "logicalForm": "Word W has multiple meanings. Meaning M1 is used in premise, meaning M2 is used in conclusion.",
+    "example": "Criminal actions are illegal. All murder trials are criminal actions. Therefore, all murder trials are illegal. (Equivocation on 'criminal')",
+    "category": "Ambiguity Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Amphiboly",
+    "altNames": [],
+    "description": "This is an error due to taking a grammatically ambiguous phrase in two different ways during the reasoning.",
+    "logicalForm": "Ambiguous grammatical structure leads to incorrect interpretation",
+    "example": "The police were told to stop drinking after midnight. (Does this mean police shouldn't drink after midnight, or that they should stop people from drinking after midnight?)",
+    "category": "Ambiguity Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Anecdotal Evidence",
+    "altNames": [],
+    "description": "This is fallacious generalizing on the basis of a some story that provides an inadequate sample.",
+    "logicalForm": "Single instance or story S supports general claim C. Therefore, C is true.",
+    "example": "My grandfather smoked a pack a day and lived to 95, so smoking isn't harmful.",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Anthropomorphism",
+    "altNames": ["Disney Fallacy", "Walt Disney Fallacy"],
+    "description": "This is the error of projecting uniquely human qualities onto something that isn't human.",
+    "logicalForm": "Non-human entity E exhibits behavior B. Humans exhibit B with intention I. Therefore, E has intention I.",
+    "example": "My cat knocked over the vase because she was angry with me.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Appeal to Authority",
+    "altNames": ["Ad Verecundiam"],
+    "description": "You appeal to authority if you back up your reasoning by saying that it is supported by what some authority says on the subject.",
+    "logicalForm": "Authority A says X is true. Therefore, X is true.",
+    "example": "A celebrity claims this diet works, so it must be scientifically valid.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Appeal to Consequence",
+    "altNames": ["Ad Consequentiam"],
+    "description": "Arguing that a belief is false because it implies something you'd rather not believe.",
+    "logicalForm": "Believing X would have bad consequences. Therefore, X is false.",
+    "example": "Climate change can't be real because dealing with it would require major economic changes.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Appeal to Emotions",
+    "altNames": ["Ad Misericordiam", "Appeal to Pity", "Appeal to Vanity", "Appeal to Snobbery"],
+    "description": "Your reasoning contains the Fallacy of Appeal to Emotions when someone's appeal to you to accept their claim is accepted merely because the appeal arouses your feelings...",
+    "logicalForm": "Emotion E is evoked regarding claim X. Therefore, X is true/false.",
+    "example": "You should hire me because I have a family to support and really need this job.",
+    "category": "Appeal to Emotion",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Appeal to Force",
+    "altNames": [],
+    "description": "See Scare Tactic.",
+    "logicalForm": "Accept X or negative consequence Y will occur.",
+    "example": "Agree with my position or I'll make sure you're fired.",
+    "category": "Appeal to Emotion",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Appeal to Ignorance",
+    "altNames": ["Ad Ignorantiam", "Argument from Ignorance"],
+    "description": "The Fallacy of Appeal to Ignorance comes in two forms...",
+    "logicalForm": "X has not been proven false. Therefore, X is true. OR X has not been proven true. Therefore, X is false.",
+    "example": "No one has ever proven that ghosts don't exist, so they must exist.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Appeal to Money",
+    "altNames": ["Ad Crumenum"],
+    "description": "The Fallacy of Appeal to Money uses the error of supposing that, if something costs a great deal of money, then it must be better...",
+    "logicalForm": "X is expensive/wealthy. Therefore, X is good/correct.",
+    "example": "This luxury car must be better than cheaper models because it costs twice as much.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Appeal to Past Practice",
+    "altNames": [],
+    "description": "See Appeal to the People.",
+    "logicalForm": "X has traditionally been done. Therefore, X is correct.",
+    "example": "We've always used coal power, so we shouldn't switch to renewables.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Appeal to Pity",
+    "altNames": [],
+    "description": "See Appeal to Emotions.",
+    "logicalForm": "Pity is evoked regarding X. Therefore, X should be accepted.",
+    "example": "You should give me a passing grade because I tried really hard and had a difficult semester.",
+    "category": "Appeal to Emotion",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Appeal to Snobbery",
+    "altNames": [],
+    "description": "See Appeal to Emotions.",
+    "logicalForm": "X is associated with elite/upper class. Therefore, X is superior.",
+    "example": "Only sophisticated people appreciate this art, so you should say you like it too.",
+    "category": "Appeal to Emotion",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Appeal to the Gallery",
+    "altNames": [],
+    "description": "See Appeal to the People.",
+    "logicalForm": "Claim X is popular with this audience. Therefore, X is true.",
+    "example": "This policy proposal received loud cheers, so it must be sound.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Appeal to the Masses",
+    "altNames": [],
+    "description": "See Appeal to the People.",
+    "logicalForm": "The masses believe X. Therefore, X is true.",
+    "example": "Millions of people use this app, so it must be the best.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Appeal to the Mob",
+    "altNames": [],
+    "description": "See Appeal to the People.",
+    "logicalForm": "The mob believes X. Therefore, X is true.",
+    "example": "Everyone in this angry crowd knows he's guilty, so he must be.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Appeal to the People",
+    "altNames": ["Ad Populum", "Ad Numerum", "Appeal to Past Practice", "Appeal to the Gallery", "Appeal to the Masses", "Appeal to the Mob", "Argument from Popularity"],
+    "description": "If you suggest too strongly that someone's claim or argument is correct simply because it's what most everyone believes...",
+    "logicalForm": "Many people believe X. Therefore, X is true.",
+    "example": "Most people believe in some form of afterlife, so it must exist.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Appeal to the Stick",
+    "altNames": [],
+    "description": "See Appeal to Emotions (fear).",
+    "logicalForm": "Accept X or face negative consequences.",
+    "example": "You should support this policy or you'll be seen as unpatriotic.",
+    "category": "Appeal to Emotion",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Appeal to Unqualified Authority",
+    "altNames": [],
+    "description": "See Appeal to Authority.",
+    "logicalForm": "Person A (unqualified) claims X. Therefore, X is true.",
+    "example": "A famous athlete says this investment is good, so it must be.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Appeal to Vanity",
+    "altNames": [],
+    "description": "See Appeal to Emotions.",
+    "logicalForm": "Accepting X makes you seem sophisticated/superior. Therefore, accept X.",
+    "example": "Smart people like you understand why this policy is necessary.",
+    "category": "Appeal to Emotion",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Argument from Ignorance",
+    "altNames": [],
+    "description": "See Appeal to Ignorance.",
+    "logicalForm": "Same as Appeal to Ignorance",
+    "example": "Same as Appeal to Ignorance",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Argument from Outrage",
+    "altNames": [],
+    "description": "See Appeal to Emotions.",
+    "logicalForm": "Outrage is expressed about X. Therefore, position about X is correct.",
+    "example": "How dare you question this policy after all the sacrifices we've made!",
+    "category": "Appeal to Emotion",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Argument from Popularity",
+    "altNames": [],
+    "description": "See Appeal to the People.",
+    "logicalForm": "Same as Appeal to the People",
+    "example": "Same as Appeal to the People",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Argumentum Ad ….",
+    "altNames": [],
+    "description": "See Ad …. without the word 'Argumentum.'",
+    "logicalForm": "Varies by specific Ad fallacy",
+    "example": "Varies by specific Ad fallacy",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Argumentum Consensus Gentium",
+    "altNames": [],
+    "description": "See Appeal to Traditional Wisdom.",
+    "logicalForm": "All nations/cultures believe X. Therefore, X is true.",
+    "example": "Every culture has some form of religion, so religious belief must be true.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Availability Heuristic",
+    "altNames": [],
+    "description": "We have an unfortunate instinct to base an important decision on an easily recalled, dramatic example...",
+    "logicalForm": "Vivid example E is recalled. Therefore, E represents the general case.",
+    "example": "After seeing news reports about plane crashes, you believe air travel is more dangerous than car travel (despite statistics showing otherwise).",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Avoiding the Issue",
+    "altNames": ["Digression", "Missing the Point", "Straying off the Subject", "Not Sticking to the Issue"],
+    "description": "A reasoner who is supposed to address an issue but instead goes off on a tangent...",
+    "logicalForm": "Issue I is raised. Instead of addressing I, discuss unrelated issue J.",
+    "example": "Question: How will you address the budget deficit? Answer: Let's talk about our opponent's scandal instead!",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Avoiding the Question",
+    "altNames": ["Changing the Question"],
+    "description": "The Fallacy of Avoiding the Question is a type of Fallacy of Avoiding the Issue that occurs when the issue is how to answer some question.",
+    "logicalForm": "Question Q is asked. Answer addresses different question R.",
+    "example": "Reporter: Did you embezzle funds? Politician: I've always served my constituents honorably.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Bad Seed",
+    "altNames": [],
+    "description": "Attempting to undermine someone's reasoning by pointing our their 'bad' family history...",
+    "logicalForm": "Person A makes claim X. Person A comes from 'bad' family. Therefore, claim X is false.",
+    "example": "His ideas about economics can't be trusted - his father was a criminal.",
+    "category": "Genetic Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Bald Man",
+    "altNames": ["Sorites Fallacy"],
+    "description": "See Line-Drawing.",
+    "logicalForm": "Cannot define exact boundary for vague concept. Therefore, concept is meaningless.",
+    "example": "One grain of sand isn't a heap. Adding one grain doesn't make a heap. Therefore, no amount of sand makes a heap.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Bandwagon",
+    "altNames": ["Ad Novitatem"],
+    "description": "If you suggest that someone's claim is correct simply because it's what most everyone is coming to believe...",
+    "logicalForm": "Many people are starting to believe X. Therefore, X is true.",
+    "example": "All the smart investors are buying cryptocurrency, so you should too.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Begging the Question",
+    "altNames": ["Petitio Principii", "Circular Reasoning", "Questionable Begging"],
+    "description": "A form of circular reasoning in which a conclusion is derived from premises that presuppose the conclusion.",
+    "logicalForm": "X is true because X is true (circular support)",
+    "example": "The Bible is true because God wrote it, and we know God exists because the Bible says so.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Beside the Point",
+    "altNames": ["Irrelevant Conclusion"],
+    "description": "Arguing for a conclusion that is not relevant to the current issue.",
+    "logicalForm": "Argument supports conclusion Y. But the issue requires supporting conclusion Z.",
+    "example": "Debate about environmental policy: My opponent has never even gone camping!",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Biased Generalizing",
+    "altNames": [],
+    "description": "Generalizing from a biased sample.",
+    "logicalForm": "Sample S is biased/unrepresentative. Therefore, generalization from S is unreliable.",
+    "example": "Survey of luxury car owners shows high life satisfaction, therefore all car owners are highly satisfied.",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Biased Sample",
+    "altNames": [],
+    "description": "See Unrepresentative Sample.",
+    "logicalForm": "Same as Unrepresentative Sample",
+    "example": "Same as Unrepresentative Sample",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Biased Statistics",
+    "altNames": [],
+    "description": "See Unrepresentative Sample.",
+    "logicalForm": "Same as Unrepresentative Sample",
+    "example": "Same as Unrepresentative Sample",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Bifurcation",
+    "altNames": [],
+    "description": "See Black-or-White.",
+    "logicalForm": "Same as Black-or-White",
+    "example": "Same as Black-or-White",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Black-or-White",
+    "altNames": ["False Dilemma", "False Dichotomy", "Either/Or", "Bifurcation", "No Middle Ground", "Excluded Middle", "All-or-Nothing"],
+    "description": "The Black-or-White fallacy limits you unfairly to only two choices...",
+    "logicalForm": "Only options A and B exist. A is unacceptable. Therefore, B must be chosen.",
+    "example": "Either we cut all education funding or we go bankrupt. We can't go bankrupt, so we must cut all education funding.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Caricaturization",
+    "altNames": ["Refutation by Caricature"],
+    "description": "Attacking a person's argument by presenting a caricaturization...",
+    "logicalForm": "Opponent's position X is misrepresented as extreme position Y. Y is refuted. Therefore, X is refuted.",
+    "example": "Environmentalists want to shut down all industry and return to the Stone Age!",
+    "category": "Straw Man",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Changing the Question",
+    "altNames": [],
+    "description": "This is another name for the Fallacy of Avoiding the Question.",
+    "logicalForm": "Same as Avoiding the Question",
+    "example": "Same as Avoiding the Question",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Cherry-Picking",
+    "altNames": [],
+    "description": "Cherry-Picking the Evidence is another name for the Fallacy of Suppressed Evidence.",
+    "logicalForm": "Only evidence supporting position X is presented. Contrary evidence is ignored.",
+    "example": "Quoting only positive reviews of a product while ignoring negative ones.",
+    "category": "Suppressed Evidence",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Circular Reasoning",
+    "altNames": ["Begging the Question"],
+    "description": "The Fallacy of Circular Reasoning occurs when the reasoner begins with what he or she is trying to end up with.",
+    "logicalForm": "X is true because Y is true; Y is true because X is true",
+    "example": "Free markets are efficient because they allocate resources optimally, and we know they allocate optimally because they're efficient.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Circumstantial Ad Hominem",
+    "altNames": [],
+    "description": "See Ad Hominem, Circumstantial.",
+    "logicalForm": "Same as Ad Hominem, Circumstantial",
+    "example": "Same as Ad Hominem, Circumstantial",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Clouding the Issue",
+    "altNames": [],
+    "description": "See Smokescreen.",
+    "logicalForm": "Same as Smokescreen",
+    "example": "Same as Smokescreen",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Common Belief",
+    "altNames": [],
+    "description": "See Appeal to the People and Traditional Wisdom.",
+    "logicalForm": "X is commonly believed. Therefore, X is true.",
+    "example": "Everyone knows that, so it must be right.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Common Cause",
+    "altNames": ["Ignoring a Common Cause", "Neglecting a Common Cause"],
+    "description": "This fallacy occurs during causal reasoning when a causal connection between two kinds of events is claimed when evidence is available indicating that both are the effect of a common cause.",
+    "logicalForm": "A and B are correlated. Therefore, A causes B. (Ignoring common cause C)",
+    "example": "Ice cream sales and shark attacks increase together. Therefore, ice cream causes shark attacks. (Ignoring summer heat as common cause)",
+    "category": "False Cause",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Common Practice",
+    "altNames": [],
+    "description": "See Appeal to the People and Traditional Wisdom.",
+    "logicalForm": "X is commonly practiced. Therefore, X is acceptable.",
+    "example": "Everyone speeds on this highway, so it's fine if I do too.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Complex Question",
+    "altNames": ["Loaded Question", "Many Questions"],
+    "description": "You use this fallacy when you frame a question so that some controversial presupposition is made by the wording of the question.",
+    "logicalForm": "Question contains assumption A. Answering directly accepts A.",
+    "example": "Have you stopped cheating on exams? (Presumes you were cheating)",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Composition",
+    "altNames": [],
+    "description": "The Composition Fallacy occurs when someone mistakenly assumes that a characteristic of some or all the individuals in a group is also a characteristic of the group itself...",
+    "logicalForm": "Each part of X has property P. Therefore, X as a whole has property P.",
+    "example": "Each brick is lightweight. Therefore, the entire brick wall is lightweight.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Confirmation Bias",
+    "altNames": [],
+    "description": "The tendency to look for evidence in favor of one's controversial hypothesis and not to look for disconfirming evidence...",
+    "logicalForm": "Only evidence supporting hypothesis H is considered. Evidence against H is ignored.",
+    "example": "Only remembering instances when a horoscope was accurate while forgetting inaccurate predictions.",
+    "category": "Suppressed Evidence",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Conjunction",
+    "altNames": [],
+    "description": "Mistakenly supposing that event E is less likely than the conjunction of events E and F.",
+    "logicalForm": "Assuming P(A) > P(A ∧ B) when P(A ∧ B) ≤ P(A)",
+    "example": "Linda is more likely to be a feminist bank teller than just a bank teller (violating probability rules).",
+    "category": "Formal Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Confusing an Explanation with an Excuse",
+    "altNames": [],
+    "description": "Treating someone's explanation of a fact as if it were a justification of the fact.",
+    "logicalForm": "Explanation E is offered for action A. Therefore, E justifies A.",
+    "example": "Explaining a crime as resulting from poverty is taken as excusing the crime.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Consensus Gentium",
+    "altNames": [],
+    "description": "Fallacy of Argumentum Consensus Gentium (argument from the consensus of the nations).",
+    "logicalForm": "Same as Appeal to Traditional Wisdom",
+    "example": "Same as Appeal to Traditional Wisdom",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Consequence",
+    "altNames": [],
+    "description": "See Appeal to Consequence.",
+    "logicalForm": "Same as Appeal to Consequence",
+    "example": "Same as Appeal to Consequence",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Contextomy",
+    "altNames": [],
+    "description": "See Quoting out of Context.",
+    "logicalForm": "Same as Quoting out of Context",
+    "example": "Same as Quoting out of Context",
+    "category": "Misrepresentation",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Converse Accident",
+    "altNames": ["Hasty Generalization"],
+    "description": "If we reason by paying too much attention to exceptions to the rule, and generalize on the exceptions...",
+    "logicalForm": "Atypical case C is used to challenge generalization G. Therefore, G is false.",
+    "example": "My turtle lived longer than my tarantula, therefore turtles live longer than tarantulas (ignoring typical lifespans).",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Cover-up",
+    "altNames": [],
+    "description": "See Suppressed Evidence.",
+    "logicalForm": "Same as Suppressed Evidence",
+    "example": "Same as Suppressed Evidence",
+    "category": "Suppressed Evidence",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Cum Hoc, Ergo Propter Hoc",
+    "altNames": [],
+    "description": "Latin for 'with this, therefore because of this.'",
+    "logicalForm": "A and B occur together. Therefore, A causes B.",
+    "example": "Violent crime increased when ice cream sales increased. Therefore, ice cream causes violence.",
+    "category": "False Cause",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Curve Fitting",
+    "altNames": ["Over-Fitting"],
+    "description": "Curve fitting is the process of constructing a curve that has the best fit to a series of data points.",
+    "logicalForm": "Creating an overly complex model that fits existing data perfectly but has poor predictive power.",
+    "example": "Stock market model that perfectly explains past fluctuations but fails to predict future trends.",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Definist",
+    "altNames": ["Persuasive Definition"],
+    "description": "The Definist Fallacy occurs when someone unfairly defines a term so that a controversial position is made easier to defend.",
+    "logicalForm": "Term T is defined in biased way B to support argument A.",
+    "example": "Defining 'fairness' as 'equal outcomes' to support wealth redistribution policies.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Denying the Antecedent",
+    "altNames": [],
+    "description": "You are using this fallacy if you deny the antecedent of a conditional and then suppose that doing so is a sufficient reason for denying the consequent.",
+    "logicalForm": "If P then Q. Not P. Therefore, not Q.",
+    "example": "If it's raining, the street is wet. It's not raining. Therefore, the street isn't wet. (Ignores other causes)",
+    "category": "Formal Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Disregarding Known Science",
+    "altNames": [],
+    "description": "This fallacy is committed when a person makes a claim that knowingly or unknowingly disregards well known science...",
+    "logicalForm": "Claim C contradicts established science S. Therefore, C is unreliable.",
+    "example": "Claiming vaccines cause autism despite extensive scientific evidence to the contrary.",
+    "category": "Suppressed Evidence",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Digression",
+    "altNames": [],
+    "description": "See Avoiding the Issue.",
+    "logicalForm": "Same as Avoiding the Issue",
+    "example": "Same as Avoiding the Issue",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Distraction",
+    "altNames": [],
+    "description": "See Smokescreen.",
+    "logicalForm": "Same as Smokescreen",
+    "example": "Same as Smokescreen",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Division",
+    "altNames": [],
+    "description": "Merely because a group as a whole has a characteristic, it often doesn't follow that individuals in the group have that characteristic.",
+    "logicalForm": "Whole X has property P. Therefore, parts of X have property P.",
+    "example": "The team is excellent. Therefore, every player is excellent.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Domino",
+    "altNames": [],
+    "description": "See Slippery Slope.",
+    "logicalForm": "Same as Slippery Slope",
+    "example": "Same as Slippery Slope",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Double Standard",
+    "altNames": [],
+    "description": "There are many situations in which you should judge two things or people by the same standard.",
+    "logicalForm": "Applying different standards to similar cases without justification",
+    "example": "Criticizing an opponent for behavior you excuse in your allies.",
+    "category": "Inconsistency",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Either/Or",
+    "altNames": [],
+    "description": "See Black-or-White.",
+    "logicalForm": "Same as Black-or-White",
+    "example": "Same as Black-or-White",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Equivocation",
+    "altNames": [],
+    "description": "Equivocation is the illegitimate switching of the meaning of a term that occurs twice during the reasoning...",
+    "logicalForm": "Word W means M1 in premise, M2 in conclusion (M1 ≠ M2)",
+    "example": "Only man is rational. No woman is a man. Therefore, no woman is rational. (Equivocation on 'man')",
+    "category": "Ambiguity Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Etymological",
+    "altNames": [],
+    "description": "The Etymological Fallacy occurs whenever someone falsely assumes that the meaning of a word can be discovered from its etymology or origins.",
+    "logicalForm": "Word W originated from meaning E. Therefore, W means E today.",
+    "example": "'Terrible' comes from 'terror', so it must always imply something frightening.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Every and All",
+    "altNames": [],
+    "description": "The Fallacy of Every and All turns on errors due to the order or scope of the quantifiers 'every' and 'all' and 'any.'",
+    "logicalForm": "Confusing 'For every x, there is y' with 'There is y such that for every x'",
+    "example": "Everyone has a mother → Therefore, there is one mother of everyone.",
+    "category": "Formal Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Exaggeration",
+    "altNames": [],
+    "description": "When we overstate or overemphasize a point that is a crucial step in a piece of reasoning...",
+    "logicalForm": "Overstating the strength or scope of claim C",
+    "example": "This policy will completely destroy our economy! (When it might only have minor impacts)",
+    "category": "Lack of Proportion",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Excluded Middle",
+    "altNames": [],
+    "description": "See False Dilemma or Black-or-White.",
+    "logicalForm": "Same as Black-or-White",
+    "example": "Same as Black-or-White",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "False Analogy",
+    "altNames": ["Weak Analogy", "Faulty Analogy"],
+    "description": "The problem is that the items in the analogy are too dissimilar.",
+    "logicalForm": "A is like B in some ways. B has property P. Therefore, A has property P. (But relevant differences exist)",
+    "example": "Employees are like nails - you have to hit them on the head to get them to work!",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "False Balance",
+    "altNames": [],
+    "description": "A specific form of the False Equivalence Fallacy...",
+    "logicalForm": "Presenting unequal positions as having equal weight",
+    "example": "Giving equal airtime to climate scientists and climate change deniers as if their evidence is comparable.",
+    "category": "False Equivalence",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "False Cause",
+    "altNames": ["Questionable Cause", "Non Causa Pro Causa"],
+    "description": "Improperly concluding that one thing is a cause of another.",
+    "logicalForm": "A and B are associated. Therefore, A causes B.",
+    "example": "I wore my lucky socks and won the game. Therefore, the socks caused my victory.",
+    "category": "False Cause",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "False Dichotomy",
+    "altNames": [],
+    "description": "See False Dilemma or Black-or-White.",
+    "logicalForm": "Same as Black-or-White",
+    "example": "Same as Black-or-White",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "False Dilemma",
+    "altNames": [],
+    "description": "A reasoner who unfairly presents too few choices and then implies that a choice must be made among this short menu of choices...",
+    "logicalForm": "Presenting only options A and B when C, D, etc. exist",
+    "example": "Either we ban all guns or we accept school shootings. There's no middle ground.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "False Equivalence",
+    "altNames": [],
+    "description": "The Fallacy of False Equivalence is committed when someone implies falsely that the two sides on some issue have basically equivalent evidence...",
+    "logicalForm": "Treating unequal positions/evidence as equivalent",
+    "example": "Presenting climate science and climate denial as equally valid scientific positions.",
+    "category": "Suppressed Evidence",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Far-Fetched Hypothesis",
+    "altNames": [],
+    "description": "This is the fallacy of offering a bizarre (far-fetched) hypothesis as the correct explanation without first ruling out more mundane explanations.",
+    "logicalForm": "Bizarre hypothesis H explains evidence E. Therefore, H is likely true (ignoring simpler explanations).",
+    "example": "Claiming missing socks disappear through wormholes instead of considering they get lost in laundry.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Faulty Comparison",
+    "altNames": ["Questionable Analogy"],
+    "description": "If you try to make a point about something by comparison, and if you do so by comparing it with the wrong thing...",
+    "logicalForm": "Comparing X and Y that differ in relevant aspects",
+    "example": "Choosing a car based only on color while ignoring safety ratings.",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Faulty Generalization",
+    "altNames": [],
+    "description": "A fallacy produced by some error in the process of generalizing.",
+    "logicalForm": "Drawing broad conclusion C from insufficient or biased evidence",
+    "example": "Meeting two unfriendly French people and concluding all French are unfriendly.",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Faulty Motives",
+    "altNames": [],
+    "description": "An irrelevant appeal to the motives of the arguer...",
+    "logicalForm": "Person A has motive M for claiming X. Therefore, X is false.",
+    "example": "He only supports that policy because it benefits his business.",
+    "category": "Ad Hominem",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Formal Fallacy",
+    "altNames": ["Invalid Reasoning"],
+    "description": "Formal fallacies are all the cases or kinds of reasoning that fail to be deductively valid.",
+    "logicalForm": "Invalid deductive argument form",
+    "example": "All A are B. Some C are A. Therefore, some C are B. (Valid) vs. Some A are B. Some C are A. Therefore, some C are B. (Invalid)",
+    "category": "Formal Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Four Terms",
+    "altNames": [],
+    "description": "The Fallacy of Four Terms (quaternio terminorum) occurs when four rather than three categorical terms are used in a standard-form syllogism.",
+    "logicalForm": "Syllogism with four terms instead of three",
+    "example": "All banks store money. River banks are banks. Therefore, river banks store money. (Equivocation on 'banks')",
+    "category": "Formal Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Gambler's",
+    "altNames": ["Monte Carlo"],
+    "description": "This fallacy occurs when the gambler falsely assumes that the history of outcomes will affect future outcomes.",
+    "logicalForm": "Independent event E has outcome O multiple times. Therefore, opposite outcome is 'due'.",
+    "example": "The roulette wheel has landed on red five times, so black must be next.",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Genetic",
+    "altNames": ["Bad Seed"],
+    "description": "A critic uses the Genetic Fallacy if the critic attempts to discredit or support a claim or an argument because of its origin...",
+    "logicalForm": "Idea X has origin O. Therefore, X is true/false.",
+    "example": "That theory came from a communist, so it must be wrong.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Group Think",
+    "altNames": [],
+    "description": "A reasoner uses the Group Think Fallacy if he or she substitutes pride of membership in the group for reasons to support the group's policy.",
+    "logicalForm": "Our group believes X. Therefore, X is true.",
+    "example": "Real Americans support this policy, so it must be right.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Guilt by Association",
+    "altNames": ["Ad Hominem, Circumstantial"],
+    "description": "Guilt by Association is a version of the Ad Hominem Fallacy in which a person is said to be guilty of error because of the group he or she associates with.",
+    "logicalForm": "Person A associates with group G. Group G has bad quality Q. Therefore, A has Q.",
+    "example": "Her ideas about economics are Marxist because she attended a university with Marxist professors.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Hasty Conclusion",
+    "altNames": [],
+    "description": "See Jumping to Conclusions.",
+    "logicalForm": "Same as Jumping to Conclusions",
+    "example": "Same as Jumping to Conclusions",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Hasty Generalization",
+    "altNames": ["Converse Accident", "Insufficient Statistics"],
+    "description": "A Hasty Generalization is a Fallacy of Jumping to Conclusions in which the conclusion is a generalization.",
+    "logicalForm": "Small sample S has property P. Therefore, all things like S have P.",
+    "example": "Three people from that city were rude, so everyone from that city is rude.",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Heap",
+    "altNames": [],
+    "description": "See Line-Drawing.",
+    "logicalForm": "Same as Line-Drawing",
+    "example": "Same as Line-Drawing",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Hedging",
+    "altNames": [],
+    "description": "You are hedging if you refine your claim simply to avoid counterevidence...",
+    "logicalForm": "Original claim C is challenged. Modify C to C' to avoid counterevidence, but present C' as equivalent to C.",
+    "example": "Psychic: You will meet someone important! (After failure) Well, you met the mail carrier!",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Hooded Man",
+    "altNames": [],
+    "description": "This is an error in reasoning due to confusing the knowing of a thing with the knowing of it under all its various names or descriptions.",
+    "logicalForm": "Confusing knowledge by description with knowledge by acquaintance",
+    "example": "You know who the hooded man is. The hooded man is your father. Therefore, you know who your father is.",
+    "category": "Ambiguity Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Hyperbolic Discounting",
+    "altNames": [],
+    "description": "The Fallacy of Hyperbolic Discounting occurs when someone too heavily weighs the importance of a present reward over a significantly greater reward in the near future...",
+    "logicalForm": "Valuing immediate reward over larger future reward disproportionately",
+    "example": "Choosing $50 now over $100 a year from now, but choosing $100 in 5 years over $50 in 4 years.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Hypostatization",
+    "altNames": ["Reification", "Misplaced Concreteness"],
+    "description": "Mistakenly supposing that something is a concrete object with independent existence, when it's not.",
+    "logicalForm": "Treating abstract concept A as concrete entity",
+    "example": "History demands justice! (Treating history as agent)",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Ideology-Driven Argumentation",
+    "altNames": [],
+    "description": "This occurs when an arguer presupposes some aspect of their own ideology that they are unable to defend.",
+    "logicalForm": "Presupposing ideological principle I without justification",
+    "example": "This policy must be wrong because it conflicts with free market principles. (Without defending why free market principles are absolute)",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Ignoratio Elenchi",
+    "altNames": [],
+    "description": "See Irrelevant Conclusion. Also called missing the point.",
+    "logicalForm": "Same as Irrelevant Conclusion",
+    "example": "Same as Irrelevant Conclusion",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Ignoring a Common Cause",
+    "altNames": [],
+    "description": "See Common Cause.",
+    "logicalForm": "Same as Common Cause",
+    "example": "Same as Common Cause",
+    "category": "False Cause",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Ignoring Inconvenient Data",
+    "altNames": [],
+    "description": "See Suppressed Evidence.",
+    "logicalForm": "Same as Suppressed Evidence",
+    "example": "Same as Suppressed Evidence",
+    "category": "Suppressed Evidence",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Incomplete Evidence",
+    "altNames": [],
+    "description": "See Suppressed Evidence.",
+    "logicalForm": "Same as Suppressed Evidence",
+    "example": "Same as Suppressed Evidence",
+    "category": "Suppressed Evidence",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Improper Analogy",
+    "altNames": [],
+    "description": "Another name for the Fallacy of False Analogy.",
+    "logicalForm": "Same as False Analogy",
+    "example": "Same as False Analogy",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Inconsistency",
+    "altNames": [],
+    "description": "The fallacy occurs when we accept an inconsistent set of claims...",
+    "logicalForm": "Holding beliefs that cannot all be true simultaneously",
+    "example": "Believing in absolute free speech but also supporting laws against hate speech.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Inductive Conversion",
+    "altNames": [],
+    "description": "Improperly reasoning from a claim of the form 'All As are Bs' to 'All Bs are As'...",
+    "logicalForm": "All A are B → Therefore, all B are A",
+    "example": "All cats are mammals → Therefore, all mammals are cats.",
+    "category": "Formal Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Insufficient Statistics",
+    "altNames": [],
+    "description": "Drawing a statistical conclusion from a set of data that is clearly too small.",
+    "logicalForm": "Generalizing from sample size too small to be representative",
+    "example": "80% of my three children dislike broccoli, therefore 80% of all children dislike broccoli.",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Intensional",
+    "altNames": [],
+    "description": "The mistake of treating different descriptions or names of the same object as equivalent even in those contexts in which the differences between them matter.",
+    "logicalForm": "Confusing co-referential terms in intensional contexts",
+    "example": "Lois Lane believes Superman can fly. Superman is Clark Kent. Therefore, Lois Lane believes Clark Kent can fly. (False, she doesn't know they're the same)",
+    "category": "Ambiguity Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Invalid Reasoning",
+    "altNames": [],
+    "description": "An invalid inference.",
+    "logicalForm": "Argument with invalid deductive form",
+    "example": "If it rains, the ground is wet. The ground is wet. Therefore, it rained. (Affirming the consequent)",
+    "category": "Formal Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Irrelevant Conclusion",
+    "altNames": ["Ignoratio Elenchi"],
+    "description": "The conclusion that is drawn is irrelevant to the premises; it misses the point.",
+    "logicalForm": "Argument supports conclusion Y, but conclusion Z is needed",
+    "example": "Debating economic policy: My opponent has never run a business!",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Irrelevant Reason",
+    "altNames": [],
+    "description": "This fallacy is a kind of Non Sequitur in which the premises are wholly irrelevant to drawing the conclusion.",
+    "logicalForm": "Premises P are irrelevant to conclusion C",
+    "example": "We should build a new library because the current one is blue.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Is-Ought",
+    "altNames": ["Naturalistic Fallacy"],
+    "description": "The Is-Ought Fallacy occurs when a conclusion expressing what ought to be so is inferred from premises expressing only what is so...",
+    "logicalForm": "Descriptive premises about what is → Prescriptive conclusion about what ought to be",
+    "example": "People naturally compete for resources → Therefore, we ought not to help the poor.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Jumping to Conclusions",
+    "altNames": ["Hasty Conclusion"],
+    "description": "It is not always a mistake to make a quick decision, but when we draw a conclusion without taking the trouble to acquire enough of the relevant evidence...",
+    "logicalForm": "Drawing conclusion C without sufficient evidence",
+    "example": "Seeing wet streets and concluding it rained (ignoring possible street cleaning).",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Lack of Proportion",
+    "altNames": [],
+    "description": "The Fallacy of Lack of Proportion occurs either by exaggerating or downplaying or simply not noticing a point that is a crucial step in a piece of reasoning.",
+    "logicalForm": "Over/underemphasizing aspect A of situation S",
+    "example": "Focusing on a politician's minor gaffe while ignoring their substantive policy positions.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Line-Drawing",
+    "altNames": ["Bald Man", "Heap", "Sorites"],
+    "description": "If we improperly reject a vague claim because it is not as precise as we'd like...",
+    "logicalForm": "Vague concept V has unclear boundaries. Therefore, V is invalid.",
+    "example": "No single grain makes a heap, so heaps don't exist.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Loaded Language",
+    "altNames": ["Prejudicial Language"],
+    "description": "Loaded language is emotive terminology that expresses value judgments.",
+    "logicalForm": "Using emotionally charged terms to influence perception",
+    "example": "Describing tax cuts as 'relief' and tax increases as 'burdens'.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Loaded Question",
+    "altNames": [],
+    "description": "Asking a question in a way that unfairly presumes the answer.",
+    "logicalForm": "Question with built-in assumption A",
+    "example": "When did you stop cheating on tests? (Assumes you did cheat)",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Logic Chopping",
+    "altNames": [],
+    "description": "Obscuring the issue by using overly-technical logic tools...",
+    "logicalForm": "Focusing on trivial logical details to avoid substantive issues",
+    "example": "Quibbling over minor definitional issues to derail debate on policy.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Logical",
+    "altNames": [],
+    "description": "See Formal.",
+    "logicalForm": "Same as Formal Fallacy",
+    "example": "Same as Formal Fallacy",
+    "category": "Formal Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Lying",
+    "altNames": [],
+    "description": "A fallacy of reasoning that depends on intentionally saying something that is known to be false.",
+    "logicalForm": "Asserting false statement as true",
+    "example": "Claiming a politician said something they never actually said.",
+    "category": "Questionable Premise",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Maldistributed Middle",
+    "altNames": [],
+    "description": "See Undistributed Middle.",
+    "logicalForm": "Same as Undistributed Middle",
+    "example": "Same as Undistributed Middle",
+    "category": "Formal Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Many Questions",
+    "altNames": [],
+    "description": "See Complex Question.",
+    "logicalForm": "Same as Complex Question",
+    "example": "Same as Complex Question",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Misconditionalization",
+    "altNames": [],
+    "description": "See Modal Fallacy.",
+    "logicalForm": "Same as Modal Fallacy",
+    "example": "Same as Modal Fallacy",
+    "category": "Formal Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Misleading Accent",
+    "altNames": [],
+    "description": "See the Fallacy of Accent.",
+    "logicalForm": "Same as Accent",
+    "example": "Same as Accent",
+    "category": "Ambiguity Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Misleading Vividness",
+    "altNames": [],
+    "description": "When the Fallacy of Jumping to Conclusions is due to a special emphasis on an anecdote or other piece of evidence...",
+    "logicalForm": "Vivid anecdote A given disproportionate weight over statistical evidence",
+    "example": "Rejecting vaccination because of one horror story while ignoring large-scale safety data.",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Misplaced Concreteness",
+    "altNames": ["Reification"],
+    "description": "Mistakenly supposing that something is a concrete object with independent existence, when it's not.",
+    "logicalForm": "Treating abstract concept as concrete entity",
+    "example": "Society decided... (as if society is a thinking entity)",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Misplaced Burden of Proof",
+    "altNames": [],
+    "description": "Committing the error of trying to get someone else to prove you are wrong, when it is your responsibility to prove you are correct.",
+    "logicalForm": "Asserting X without proof, then demanding others disprove X",
+    "example": "I believe in invisible unicorns - prove they don't exist!",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Misrepresentation",
+    "altNames": [],
+    "description": "If the misrepresentation occurs on purpose, then it is an example of lying.",
+    "logicalForm": "Distorting opponent's position",
+    "example": "Opponent: We need moderate gun control. You: My opponent wants to take all your guns!",
+    "category": "Straw Man",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Missing the Point",
+    "altNames": [],
+    "description": "See Irrelevant Conclusion.",
+    "logicalForm": "Same as Irrelevant Conclusion",
+    "example": "Same as Irrelevant Conclusion",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Mob Appeal",
+    "altNames": [],
+    "description": "See Appeal to the People.",
+    "logicalForm": "Same as Appeal to the People",
+    "example": "Same as Appeal to the People",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Modal",
+    "altNames": [],
+    "description": "This is the error of treating modal conditionals as if the modality applies only to the then-part of the conditional when it more properly applies to the entire conditional.",
+    "logicalForm": "Confusing scope of modal operators",
+    "example": "If you're the king, you must be the king's son. Therefore, everyone must be the king's son.",
+    "category": "Formal Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Monte Carlo",
+    "altNames": [],
+    "description": "See Gambler's Fallacy.",
+    "logicalForm": "Same as Gambler's Fallacy",
+    "example": "Same as Gambler's Fallacy",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Name Calling",
+    "altNames": [],
+    "description": "See Ad Hominem.",
+    "logicalForm": "Same as Ad Hominem",
+    "example": "Same as Ad Hominem",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Naturalistic",
+    "altNames": [],
+    "description": "On a broad interpretation of this fallacy, it applies to any attempt to argue from an 'is' to an 'ought'...",
+    "logicalForm": "What is natural → What ought to be",
+    "example": "War is natural, so it's morally acceptable.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Neglecting a Common Cause",
+    "altNames": [],
+    "description": "See Common Cause.",
+    "logicalForm": "Same as Common Cause",
+    "example": "Same as Common Cause",
+    "category": "False Cause",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "No Middle Ground",
+    "altNames": [],
+    "description": "See False Dilemma.",
+    "logicalForm": "Same as False Dilemma",
+    "example": "Same as False Dilemma",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "No True Scotsman",
+    "altNames": [],
+    "description": "This error is a kind of Ad Hoc Rescue of one's generalization in which the reasoner re-characterizes the situation solely in order to escape refutation of the generalization.",
+    "logicalForm": "All A are B. Counterexample C is presented. Therefore, C is not a true A.",
+    "example": "No Scotsman puts sugar in his porridge. But my uncle Angus is Scottish and does! Well, no true Scotsman puts sugar in his porridge!",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Non Causa Pro Causa",
+    "altNames": [],
+    "description": "This label is Latin for mistaking the 'non-cause for the cause.'",
+    "logicalForm": "Same as False Cause",
+    "example": "Same as False Cause",
+    "category": "False Cause",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Non Sequitur",
+    "altNames": [],
+    "description": "When a conclusion is supported only by extremely weak reasons or by irrelevant reasons...",
+    "logicalForm": "Conclusion does not follow from premises",
+    "example": "He's a great musician, so he'd make an excellent politician.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Obscurum per Obscurius",
+    "altNames": [],
+    "description": "Explaining something obscure or mysterious by something that is even more obscure or more mysterious.",
+    "logicalForm": "Explaining unclear concept U with even more unclear concept V",
+    "example": "Consciousness arises from quantum entanglement in microtubules.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "One-Sidedness",
+    "altNames": [],
+    "description": "See the related fallacies of Confirmation Bias, Slanting and Suppressed Evidence.",
+    "logicalForm": "Presenting only evidence supporting one side",
+    "example": "Only presenting benefits of a policy while ignoring costs.",
+    "category": "Suppressed Evidence",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Opposition",
+    "altNames": [],
+    "description": "Being opposed to someone's reasoning because of who they are...",
+    "logicalForm": "Person A makes claim X. I oppose A. Therefore, X is false.",
+    "example": "Rejecting an idea because it comes from a political opponent.",
+    "category": "Ad Hominem",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Over-Fitting",
+    "altNames": [],
+    "description": "See Curve Fitting.",
+    "logicalForm": "Same as Curve Fitting",
+    "example": "Same as Curve Fitting",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Overgeneralization",
+    "altNames": [],
+    "description": "See Sweeping Generalization.",
+    "logicalForm": "Same as Sweeping Generalization",
+    "example": "Same as Sweeping Generalization",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Oversimplification",
+    "altNames": [],
+    "description": "You oversimplify when you cover up relevant complexities or make a complicated problem appear to be too much simpler than it really is.",
+    "logicalForm": "Reducing complex situation to simple cause/effect",
+    "example": "Poverty is caused by laziness.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Past Practice",
+    "altNames": [],
+    "description": "See Traditional Wisdom.",
+    "logicalForm": "Same as Traditional Wisdom",
+    "example": "Same as Traditional Wisdom",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Pathetic",
+    "altNames": [],
+    "description": "The Pathetic Fallacy is a mistaken belief due to attributing peculiarly human qualities to inanimate objects...",
+    "logicalForm": "Attributing human emotions to nature/inanimate objects",
+    "example": "The cruel sea took their lives.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Peer Pressure",
+    "altNames": [],
+    "description": "See Appeal to the People.",
+    "logicalForm": "Same as Appeal to the People",
+    "example": "Same as Appeal to the People",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Persuasive Definition",
+    "altNames": ["Definist", "Victory by Definition"],
+    "description": "Some people try to win their arguments by getting you to accept their faulty definition.",
+    "logicalForm": "Redefining term T to include/exclude attributes that favor one's position",
+    "example": "Defining 'assault weapon' to include all semi-automatic firearms.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Perfectionist",
+    "altNames": [],
+    "description": "If you remark that a proposal or claim should be rejected solely because it doesn't solve the problem perfectly...",
+    "logicalForm": "Solution S is not perfect. Therefore, S should be rejected.",
+    "example": "This recycling program won't eliminate all waste, so we shouldn't implement it.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Petitio Principii",
+    "altNames": [],
+    "description": "See Begging the Question.",
+    "logicalForm": "Same as Begging the Question",
+    "example": "Same as Begging the Question",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Poisoning the Well",
+    "altNames": [],
+    "description": "Poisoning the well is a preemptive attack on a person in order to discredit their testimony or argument in advance of their giving it.",
+    "logicalForm": "Discrediting person A before they speak, so their arguments are dismissed",
+    "example": "Before the debate: Remember, my opponent has been paid by special interests.",
+    "category": "Ad Hominem",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Post Hoc",
+    "altNames": [],
+    "description": "Suppose we notice that an event of kind A is followed in time by an event of kind B, and then hastily leap to the conclusion that A caused B.",
+    "logicalForm": "A occurred then B occurred. Therefore, A caused B.",
+    "example": "I wore my lucky hat and my team won. Therefore, my hat caused the victory.",
+    "category": "False Cause",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Prejudicial Language",
+    "altNames": [],
+    "description": "See Loaded Language.",
+    "logicalForm": "Same as Loaded Language",
+    "example": "Same as Loaded Language",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Proof Surrogate",
+    "altNames": [],
+    "description": "Substituting a distracting comment for a real proof.",
+    "logicalForm": "Implying proof exists without providing it",
+    "example": "Experts agree... (without naming them)",
+    "category": "Appeal to Authority",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Prosecutor's Fallacy",
+    "altNames": [],
+    "description": "This is the mistake of over-emphasizing the strength of a piece of evidence while paying insufficient attention to the context.",
+    "logicalForm": "Miscalculating conditional probability P(A|B) as P(B|A)",
+    "example": "The probability of this DNA match by chance is 1 in a million, so there's only a 1 in a million chance the defendant is innocent.",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Prosody",
+    "altNames": [],
+    "description": "See the Fallacy of Accent.",
+    "logicalForm": "Same as Accent",
+    "example": "Same as Accent",
+    "category": "Ambiguity Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Quantifier Shift",
+    "altNames": [],
+    "description": "Confusing the phrase 'For all x there is some y' with 'There is some (one) y such that for all x.'",
+    "logicalForm": "Confusing ∀x∃y with ∃y∀x",
+    "example": "Everyone loves someone → Therefore, there is someone whom everyone loves.",
+    "category": "Formal Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Questionable Begging",
+    "altNames": [],
+    "description": "See Begging the Question",
+    "logicalForm": "Same as Begging the Question",
+    "example": "Same as Begging the Question",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Questionable Analogy",
+    "altNames": [],
+    "description": "See False Analogy.",
+    "logicalForm": "Same as False Analogy",
+    "example": "Same as False Analogy",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Questionable Cause",
+    "altNames": [],
+    "description": "See False Cause.",
+    "logicalForm": "Same as False Cause",
+    "example": "Same as False Cause",
+    "category": "False Cause",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Questionable Premise",
+    "altNames": [],
+    "description": "If you have sufficient background information to know that a premise is questionable or unlikely to be acceptable...",
+    "logicalForm": "Argument based on dubious premise P",
+    "example": "Assuming without evidence that immigrants commit more crimes.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Quibbling",
+    "altNames": [],
+    "description": "We quibble when we complain about a minor point and falsely believe that this complaint somehow undermines the main point.",
+    "logicalForm": "Focusing on trivial inaccuracies to discredit argument",
+    "example": "Rejecting climate science because of a minor error in a chart.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Quoting out of Context",
+    "altNames": ["Contextomy"],
+    "description": "If you quote someone, but select the quotation so that essential context is not available...",
+    "logicalForm": "Using quote Q without necessary context C, changing meaning",
+    "example": "Taking 'I oppose this policy' out of context of 'I oppose this policy because it doesn't go far enough'",
+    "category": "Misrepresentation",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Rationalization",
+    "altNames": [],
+    "description": "We rationalize when we inauthentically offer reasons to support our claim.",
+    "logicalForm": "Providing socially acceptable reason R for action A, when real reason is different",
+    "example": "I bought the expensive car for its safety features (when really it was for status).",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Red Herring",
+    "altNames": [],
+    "description": "A red herring is a smelly fish that would distract even a bloodhound.",
+    "logicalForm": "Introducing irrelevant topic T to distract from original issue O",
+    "example": "Debating climate policy: But what about China's emissions?",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Refutation by Caricature",
+    "altNames": [],
+    "description": "See the Fallacy of Caricaturization.",
+    "logicalForm": "Same as Caricaturization",
+    "example": "Same as Caricaturization",
+    "category": "Straw Man",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Regression",
+    "altNames": ["Regressive Fallacy"],
+    "description": "This fallacy occurs when regression to the mean is mistaken for a sign of a causal connection.",
+    "logicalForm": "Extreme outcome E1 followed by less extreme E2 → Therefore, intervention caused E2",
+    "example": "After terrible season, team fires coach. Next season improves slightly → Therefore, firing coach caused improvement (ignoring regression to mean).",
+    "category": "False Cause",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Reification",
+    "altNames": ["Hypostatization"],
+    "description": "Considering a word to be referring to an object, when the meaning of the word can be accounted for more mundanely...",
+    "logicalForm": "Treating abstract concept as concrete entity",
+    "example": "The market decided... (as if market is conscious entity)",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Reversing Causation",
+    "altNames": [],
+    "description": "Drawing an improper conclusion about causation due to a causal assumption that reverses cause and effect.",
+    "logicalForm": "Confusing cause and effect",
+    "example": "Anxiety causes poor sleep → Poor sleep causes anxiety (possible, but not necessarily)",
+    "category": "False Cause",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Scapegoating",
+    "altNames": [],
+    "description": "If you unfairly blame an unpopular person or group of people for a problem...",
+    "logicalForm": "Blaming group G for problem P without sufficient evidence",
+    "example": "Immigrants are responsible for all economic problems.",
+    "category": "Appeal to Emotion",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Scare Tactic",
+    "altNames": ["Appeal to Force", "Ad Baculum"],
+    "description": "If you suppose that terrorizing your opponent is giving him a reason for believing that you are correct...",
+    "logicalForm": "Accept X or face negative consequence Y",
+    "example": "Support this policy or you'll be seen as unpatriotic.",
+    "category": "Appeal to Emotion",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Scope",
+    "altNames": [],
+    "description": "The Scope Fallacy is caused by improperly changing or misrepresenting the scope of a phrase.",
+    "logicalForm": "Misinterpreting scope of quantifiers or modifiers",
+    "example": "Every boy loves some girl → Therefore, there is some girl loved by every boy.",
+    "category": "Ambiguity Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Secundum Quid",
+    "altNames": [],
+    "description": "See Accident and Converse Accident, two versions of the fallacy.",
+    "logicalForm": "Varies by specific fallacy",
+    "example": "Varies by specific fallacy",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Selective Attention",
+    "altNames": [],
+    "description": "Improperly focusing attention on certain things and ignoring others.",
+    "logicalForm": "Noticing evidence supporting belief B, ignoring contrary evidence",
+    "example": "Remembering only times prayer seemed answered, forgetting unanswered prayers.",
+    "category": "Suppressed Evidence",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Self-Fulfilling Prophecy",
+    "altNames": [],
+    "description": "The fallacy occurs when the act of prophesying will itself produce the effect that is prophesied...",
+    "logicalForm": "Belief B leads to actions that make B true",
+    "example": "Predicting bank failure causes panic withdrawals that cause failure.",
+    "category": "False Cause",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Self-Selection",
+    "altNames": [],
+    "description": "A Biased Generalization in which the bias is due to self-selection for membership in the sample...",
+    "logicalForm": "Sample S self-selected → Generalization from S may be biased",
+    "example": "Online poll about internet usage only reaches internet users.",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Sharpshooter's",
+    "altNames": [],
+    "description": "The Sharpshooter's Fallacy gets its name from someone shooting a rifle at the side of the barn and then going over and drawing a target...",
+    "logicalForm": "Finding patterns in random data after the fact",
+    "example": "Finding 'predictive' stock patterns after seeing price movements.",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Slanting",
+    "altNames": [],
+    "description": "This error occurs when the issue is not treated fairly because of misrepresenting the evidence...",
+    "logicalForm": "Presenting evidence in biased way",
+    "example": "Reporting only negative statistics about an opponent's policy.",
+    "category": "Suppressed Evidence",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Slippery Slope",
+    "altNames": ["Domino"],
+    "description": "Suppose someone claims that a first step will probably lead to a second step that in turn will probably lead to another step and so on until a final step ends in trouble.",
+    "logicalForm": "A leads to B, B leads to C,... Y leads to Z (disaster). Therefore, don't do A.",
+    "example": "Legalizing marijuana will lead to harder drugs, then increased crime, then societal collapse.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Small Sample",
+    "altNames": [],
+    "description": "This is the fallacy of using too small a sample.",
+    "logicalForm": "Generalizing from small sample size N",
+    "example": "My two experiences with that brand were bad, so all their products are bad.",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Smear Tactic",
+    "altNames": [],
+    "description": "A smear tactic is an unfair characterization either of the opponent or the opponent's position or argument.",
+    "logicalForm": "Making false or misleading negative claims about opponent",
+    "example": "Spreading rumors about opponent's personal life.",
+    "category": "Ad Hominem",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Smokescreen",
+    "altNames": ["Clouding the Issue", "Distraction"],
+    "description": "This fallacy occurs by offering too many details in order either to obscure the point or to cover-up counter-evidence.",
+    "logicalForm": "Overwhelming with irrelevant information to obscure main point",
+    "example": "Responding to corruption allegations with lengthy discussions of policy achievements.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Sorites",
+    "altNames": [],
+    "description": "See Line-Drawing.",
+    "logicalForm": "Same as Line-Drawing",
+    "example": "Same as Line-Drawing",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Special Pleading",
+    "altNames": [],
+    "description": "Special pleading is a form of inconsistency in which the reasoner doesn't apply his or her principles consistently.",
+    "logicalForm": "Applying principle P generally but making exception for case C without justification",
+    "example": "Free speech should be protected, except for views I disagree with.",
+    "category": "Inconsistency",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Specificity",
+    "altNames": [],
+    "description": "Drawing an overly specific conclusion from the evidence.",
+    "logicalForm": "Evidence supports general conclusion G → Drawing overly specific conclusion S",
+    "example": "Seeing wet streets and concluding it rained exactly 0.3 inches last night.",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Stacking the Deck",
+    "altNames": [],
+    "description": "See Suppressed Evidence and Slanting.",
+    "logicalForm": "Same as Suppressed Evidence",
+    "example": "Same as Suppressed Evidence",
+    "category": "Suppressed Evidence",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Stereotyping",
+    "altNames": [],
+    "description": "Using stereotypes as if they are accurate generalizations for the whole group is an error in reasoning.",
+    "logicalForm": "Group G has characteristic C. Therefore, member M of G has C.",
+    "example": "Engineers are socially awkward. Therefore, this engineer must be socially awkward.",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Straw Man",
+    "altNames": [],
+    "description": "Your reasoning contains the Straw Man Fallacy whenever you attribute an easily refuted position to your opponent...",
+    "logicalForm": "Misrepresenting opponent's position X as Y. Refuting Y. Claiming to have refuted X.",
+    "example": "Opponent: We need police reform. You: They want to abolish all police! That would be disastrous!",
+    "category": "Misrepresentation",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Style Over Substance",
+    "altNames": [],
+    "description": "Unfortunately the style with which an argument is presented is sometimes taken as adding to the substance or strength of the argument.",
+    "logicalForm": "Argument A is presented in impressive style S. Therefore, A is strong.",
+    "example": "The speaker was charismatic and eloquent, so their arguments must be valid.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Subjectivist",
+    "altNames": [],
+    "description": "The Subjectivist Fallacy occurs when it is mistakenly supposed that a good reason to reject a claim is that truth on the matter is relative to the person or group.",
+    "logicalForm": "Truth is subjective. Therefore, claim X is true for me but not for you.",
+    "example": "That might be true for you, but not for me.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Superstitious Thinking",
+    "altNames": [],
+    "description": "Reasoning deserves to be called superstitious if it is based on reasons that are well known to be unacceptable...",
+    "logicalForm": "Belief based on magical thinking or false causation",
+    "example": "Avoiding cracks in pavement to prevent 'bad luck'.",
+    "category": "False Cause",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Suppressed Evidence",
+    "altNames": ["Cherry-Picking", "Cover-up", "Incomplete Evidence", "Ignoring Inconvenient Data", "Stacking the Deck", "One-Sidedness"],
+    "description": "Intentionally failing to use information suspected of being relevant and significant...",
+    "logicalForm": "Presenting evidence supporting position while suppressing contrary evidence",
+    "example": "Promoting a drug's benefits while hiding side effects.",
+    "category": "Suppressed Evidence",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Sweeping Generalization",
+    "altNames": ["Accident"],
+    "description": "See Fallacy of Accident.",
+    "logicalForm": "Same as Accident",
+    "example": "Same as Accident",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Syllogistic",
+    "altNames": [],
+    "description": "Syllogistic fallacies are kinds of invalid categorical syllogisms.",
+    "logicalForm": "Invalid categorical syllogism",
+    "example": "All A are B. Some C are A. Therefore, all C are B. (Illicit major)",
+    "category": "Formal Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Tokenism",
+    "altNames": [],
+    "description": "If you interpret a merely token gesture as an adequate substitute for the real thing...",
+    "logicalForm": "Minor concession M made. Therefore, problem is solved.",
+    "example": "We hired one woman, so we've addressed gender diversity.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Traditional Wisdom",
+    "altNames": ["Argumentum Consensus Gentium", "Appeal to Past Practice", "Common Practice", "Past Practice"],
+    "description": "If you say or imply that a practice must be OK today simply because it has been the apparently wise practice in the past...",
+    "logicalForm": "X has been traditionally believed/done. Therefore, X is correct.",
+    "example": "Marriage has always been between man and woman, so same-sex marriage is wrong.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Tu Quoque",
+    "altNames": ["You-Too"],
+    "description": "The Fallacy of Tu Quoque occurs in our reasoning if we conclude that someone's argument not to perform some act must be faulty because the arguer himself or herself has performed it.",
+    "logicalForm": "Person A criticizes action X. But A does X. Therefore, criticism is invalid.",
+    "example": "You can't tell me to quit smoking when you smoke yourself!",
+    "category": "Ad Hominem",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Two Wrongs do not Make a Right",
+    "altNames": [],
+    "description": "When you defend your wrong action as being right because someone previously has acted wrongly...",
+    "logicalForm": "Wrong action W2 is justified because wrong action W1 occurred",
+    "example": "They started it, so I can cheat too!",
+    "category": "Ad Hominem",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Undistributed Middle",
+    "altNames": ["Maldistributed Middle"],
+    "description": "In syllogistic logic, failing to distribute the middle term over at least one of the other terms...",
+    "logicalForm": "All P are M. All S are M. Therefore, all S are P.",
+    "example": "All dogs are mammals. All cats are mammals. Therefore, all cats are dogs.",
+    "category": "Formal Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Unfalsifiability",
+    "altNames": ["Untestability"],
+    "description": "This error in explanation occurs when the explanation contains a claim that is not falsifiable...",
+    "logicalForm": "Claim C cannot be tested/falsified",
+    "example": "Invisible unicorns exist but only reveal themselves to believers.",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Unrepresentative Generalization",
+    "altNames": [],
+    "description": "If the plants on my plate are not representative of all plants, then the following generalization should not be trusted.",
+    "logicalForm": "Generalizing from unrepresentative sample",
+    "example": "Surveying only urban residents about gun control and generalizing to all citizens.",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Unrepresentative Sample",
+    "altNames": ["Biased Sample", "Biased Statistics", "Biased Generalizing"],
+    "description": "If the means of collecting the sample from the population are likely to produce a sample that is unrepresentative of the population...",
+    "logicalForm": "Sample S is unrepresentative of population P → Generalization from S to P unreliable",
+    "example": "Concluding all Americans support war after surveying military bases.",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Untestability",
+    "altNames": [],
+    "description": "See Unfalsifiability.",
+    "logicalForm": "Same as Unfalsifiability",
+    "example": "Same as Unfalsifiability",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Vested Interest",
+    "altNames": [],
+    "description": "The Vested Interest Fallacy occurs when a person argues that someone's claim is incorrect or their recommended action is not worthy of being followed because the person is motivated by their interest in gaining something by it...",
+    "logicalForm": "Person A has vested interest in claim X. Therefore, X is false.",
+    "example": "She only supports that environmental policy because her company profits from it.",
+    "category": "Ad Hominem",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Victory by Definition",
+    "altNames": [],
+    "description": "Same as the fallacy of Persuasive Definition.",
+    "logicalForm": "Same as Persuasive Definition",
+    "example": "Same as Persuasive Definition",
+    "category": "Presumption Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Weak Analogy",
+    "altNames": [],
+    "description": "See False Analogy.",
+    "logicalForm": "Same as False Analogy",
+    "example": "Same as False Analogy",
+    "category": "Weak Induction",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Willed ignorance",
+    "altNames": [],
+    "description": "I've got my mind made up, so don't confuse me with the facts.",
+    "logicalForm": "Refusing to consider evidence against belief B",
+    "example": "No evidence will change my mind about this!",
+    "category": "Suppressed Evidence",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "Wishful Thinking",
+    "altNames": [],
+    "description": "A reasoner who suggests that a claim is true, or false, merely because he or she strongly hopes it is...",
+    "logicalForm": "I wish X were true. Therefore, X is true.",
+    "example": "I really want there to be an afterlife, so there must be one.",
+    "category": "Relevance Fallacy",
+    "source": "https://iep.utm.edu/fallacy/"
+  },
+  {
+    "name": "You-Too",
+    "altNames": [],
+    "description": "This is an informal name for the Tu Quoque fallacy.",
+    "logicalForm": "Same as Tu Quoque",
+    "example": "Same as Tu Quoque",
+    "category": "Ad Hominem",
+    "source": "https://iep.utm.edu/fallacy/"
+  }
+]

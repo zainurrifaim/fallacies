@@ -1,20 +1,39 @@
-import { BookOpen, Brain } from "lucide-react"
+import Link from "next/link"
+import MobileMenu from "@/components/mobile-menu"
+import { Lightbulb } from "lucide-react"
 
 export default function Header() {
   return (
-    <header className="bg-white shadow-sm border-b border-gray-200">
-      <div className="container mx-auto px-4 py-6">
-        <div className="flex items-center justify-center space-x-3">
-          <div className="flex items-center space-x-2">
-            <Brain className="h-8 w-8 text-indigo-600" />
-            <BookOpen className="h-8 w-8 text-emerald-600" />
+    <header className="bg-white border-b border-neutral-300 shadow-sm">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-center h-16">
+          <div className="flex items-center">
+            <Link href="/" className="flex items-center space-x-2">
+              <div className="w-8 h-8 bg-neutral-950 rounded-lg flex items-center justify-center">
+                <Lightbulb className="w-5 h-5 text-white" />
+              </div>
+              <h1 className="text-xl font-bold text-neutral-950 truncate">
+                <span className="hidden sm:inline">Logical Fallacy Checker</span>
+                <span className="sm:hidden">Fallacy Checker</span>
+              </h1>
+            </Link>
           </div>
-          <div className="text-center">
-            <h1 className="text-3xl font-bold text-gray-900">Science Misconception Analyzer</h1>
-            <p className="text-gray-600 mt-1">
-              AI-powered tool to identify and address student misconceptions in science
-            </p>
-          </div>
+
+          {/* Desktop Navigation */}
+          <nav className="hidden md:flex items-center space-x-6">
+            <Link href="#about" className="text-neutral-700 hover:text-neutral-950 transition-colors">
+              About
+            </Link>
+            <Link href="#examples" className="text-neutral-700 hover:text-neutral-950 transition-colors">
+              Examples
+            </Link>
+            <Link href="#fallacies" className="text-neutral-700 hover:text-neutral-950 transition-colors">
+              Fallacy List
+            </Link>
+          </nav>
+
+          {/* Mobile Menu */}
+          <MobileMenu />
         </div>
       </div>
     </header>

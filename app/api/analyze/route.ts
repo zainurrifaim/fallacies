@@ -1,45 +1,63 @@
 import { type NextRequest, NextResponse } from "next/server"
-import Groq from "groq-sdk"
-import type { AnalysisRequest, AnalysisResponse } from "@/types"
-import misconceptionFramework from "@/data/misconception-framework.json"
+import { groq } from "@ai-sdk/groq"
+import { generateText } from "ai"
+import fallaciesData from "../../../data/fallacies.json"
+
+// Define interfaces
+interface DetectedFallacy {
+  name: string
+  explanation?: string
+}
+
+interface FullFallacy {
+  name: string
+  description: string
+  logicalForm: string
+  example: string
+  category: string
+  altNames: string[]
+}
+
+interface AnalyzedFallacy extends FullFallacy {
+  explanation: string
+}
 
 export async function POST(request: NextRequest) {
   try {
-    const body: AnalysisRequest = await request.json()
-    const { context, studentAnswer } = body
+    const { text } = await request.json()
 
-    if (!context || !studentAnswer) {
-      return NextResponse.json(
-        { error: "Context and student answer are required" }, 
-        { status: 400 }
-      )
+    if (!text || text.trim().length === 0) {
+      return NextResponse.json({ error: "Text is required" }, { status: 400 })
     }
 
-    // Initialize Groq client
-    const apiKey = process.env.GROQ_API_KEY
-    if (!apiKey) {
-      throw new Error("GROQ_API_KEY environment variable is not set")
+    if (!process.env.GROQ_API_KEY) {
+      console.error("GROQ_API_KEY not found")
+      return NextResponse.json({ error: "API configuration error" }, { status: 500 })
     }
 
-    const groq = new Groq({ apiKey })
+    const fallaciesString = fallaciesData.map((f: FullFallacy) => `- ${f.name}: ${f.description}`).join("\n")
 
-    const prompt = `You are an expert science education analyst using a research-based misconception framework. Analyze the following student response using ONLY the provided misconception categories and treatment strategies from the database.
+    const prompt = `You are an expert in logical reasoning and fallacy detection. Analyze the given text for logical fallacies.
 
-## MISCONCEPTION FRAMEWORK DATABASE
+Available fallacies:
+${fallaciesString}
 
-### MISCONCEPTION CATEGORIES:
-${JSON.stringify(misconceptionFramework.misconception_categories, null, 2)}
+Text to analyze: "${text.trim()}"
 
-### TREATMENT STRATEGIES:
-${JSON.stringify(misconceptionFramework.treatment_strategies, null, 2)}
+Instructions:
+1. Carefully examine the text for any logical fallacies
+2. Only identify fallacies that are clearly present
+3. Be precise and avoid false positives
+4. Respond with ONLY a JSON array
 
-## ANALYSIS TASK
+For each detected fallacy, use this format:
+{"name": "exact fallacy name from list", "explanation": "how this appears in the text"}
 
-**Context:** ${context}
-**Student Answer:** ${studentAnswer}
+If no fallacies found, respond with: []
 
-## INSTRUCTIONS
+JSON Response:`
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 1. **IDENTIFY MISCONCEPTIONS**: Examine the student response for any misconceptions
 =======
@@ -114,132 +132,69 @@ Base your entire analysis strictly on the provided database content. Do not inve
       model: "meta-llama/llama-4-scout-17b-16e-instruct",
       temperature: 0.3,
       max_tokens: 2000,
+=======
+    const { text: aiResponse } = await generateText({
+      model: groq("meta-llama/llama-4-scout-17b-16e-instruct"),
+      prompt,
+      temperature: 0.1,
+>>>>>>> parent of e60befc (major revision)
     })
 
-    if (!completion?.choices?.[0]?.message?.content) {
-      throw new Error("Invalid or empty response from Groq API")
-    }
+    let fallaciesResult: AnalyzedFallacy[] = []
 
-    const responseText = completion.choices[0].message.content
-
-    // Enhanced JSON parsing with database validation
-    let analysisResult: AnalysisResponse
     try {
-      let jsonText = responseText.trim()
-      
-      // Remove markdown code blocks if present
-      jsonText = jsonText.replace(/```json\s*/, '').replace(/```\s*$/, '')
-      
-      // Look for JSON object in the response
-      const jsonMatch = jsonText.match(/\{[\s\S]*\}/)
-      if (jsonMatch) {
-        jsonText = jsonMatch[0]
-      }
-      
-      const parsedResponse = JSON.parse(jsonText)
-      
-      // Validate response structure with database compliance
-      const isValidAnalysisResponse = (response: unknown): response is AnalysisResponse => {
-        const r = response as AnalysisResponse
-        
-        // Valid categories from database
-        const validCategories = misconceptionFramework.misconception_categories.map(cat => cat.category)
-        
-        // Valid strategies from database
-        const validStrategies = misconceptionFramework.treatment_strategies.map(strategy => strategy.strategy)
-        
-        // Validate misconceptions
-        const validMisconceptions = Array.isArray(r.misconceptions) && 
-          r.misconceptions.every((m: any) => 
-            validCategories.includes(m.category) && 
-            typeof m.description === 'string' &&
-            typeof m.explanation === 'string'
-          )
-        
-        // Validate teaching suggestions
-        const validTeachingSuggestions = Array.isArray(r.teachingSuggestions) && 
-          r.teachingSuggestions.every((t: any) => 
-            validStrategies.includes(t.strategy) &&
-            typeof t.rationale === 'string' &&
-            typeof t.implementation === 'string'
-          )
-        
-        return (
-          typeof r === 'object' &&
-          r !== null &&
-          validMisconceptions &&
-          Array.isArray(r.correctConcepts) &&
-          validTeachingSuggestions &&
-          typeof r.frameworkAnalysis === 'object'
-        )
-      }
+      const cleanResponse = aiResponse.trim()
+      const jsonMatch = cleanResponse.match(/\[[\s\S]*?\]/)
+      const jsonString = jsonMatch ? jsonMatch[0] : cleanResponse
 
-      if (!isValidAnalysisResponse(parsedResponse)) {
-        throw new Error("Response does not match expected structure or contains invalid database references")
-      }
+      const parsedFallacies: DetectedFallacy[] = JSON.parse(jsonString)
 
-      // Ensure required fields exist with database-compliant defaults
-      analysisResult = {
-        misconceptions: parsedResponse.misconceptions || [],
-        correctConcepts: parsedResponse.correctConcepts || [],
-        teachingSuggestions: parsedResponse.teachingSuggestions || [],
-        overallConfidence: typeof parsedResponse.overallConfidence === "number" ? parsedResponse.overallConfidence : 0.8,
-        frameworkAnalysis: parsedResponse.frameworkAnalysis || {
-          primaryCategory: "Unknown",
-          interventionPriority: "Medium",
-          recommendedApproach: "Multi-strategy approach"
-        }
+      if (Array.isArray(parsedFallacies)) {
+        fallaciesResult = parsedFallacies
+          .map((detected) => {
+            if (!detected.name) return null
+
+            const fullFallacy = fallaciesData.find(
+              (f: FullFallacy) =>
+                f.name.toLowerCase() === detected.name.toLowerCase() ||
+                f.altNames.some((alt) => alt.toLowerCase() === detected.name.toLowerCase()),
+            )
+
+            if (fullFallacy) {
+              return {
+                name: fullFallacy.name,
+                description: fullFallacy.description,
+                logicalForm: fullFallacy.logicalForm,
+                example: fullFallacy.example,
+                category: fullFallacy.category,
+                altNames: fullFallacy.altNames,
+                explanation: detected.explanation || "This fallacy was detected in your text.",
+              }
+            }
+
+            return null
+          })
+          .filter((f): f is NonNullable<typeof f> => Boolean(f))
       }
-      
     } catch (parseError) {
-      console.error("Failed to parse or validate Groq response:", responseText)
-      
-      // Provide more specific error details
-      const errorDetails = parseError instanceof Error ? parseError.message : "Unknown parsing error"
-      const isJsonError = errorDetails.includes("JSON") || errorDetails.includes("parse")
-      
-      return NextResponse.json(
-        { 
-          error: isJsonError 
-            ? "The AI response was not in the expected format. This can happen with complex analyses."
-            : "Invalid response structure from AI model or non-compliant database references",
-          details: errorDetails,
-          receivedResponse: responseText.substring(0, 500) + (responseText.length > 500 ? "..." : "")
-        },
-        { status: 422 }
-      )
+      console.error("JSON parsing error:", parseError)
+      console.error("AI Response:", aiResponse)
+      fallaciesResult = []
     }
 
-    return NextResponse.json(analysisResult)
-
+    return NextResponse.json({
+      fallacies: fallaciesResult,
+      debug: process.env.NODE_ENV === "development" ? { rawResponse: aiResponse } : undefined,
+    })
   } catch (error) {
-    console.error("Analysis error:", error)
-
-    if (error instanceof Error) {
-      // Handle specific error types
-      if (error.message.includes('429') || error.message.includes('rate limit')) {
-        return NextResponse.json(
-          { error: "Rate limit exceeded. Please try again later." },
-          { status: 429 }
-        )
-      }
-      
-      if (error.message.includes('API key') || error.message.includes('401')) {
-        return NextResponse.json(
-          { error: "Authentication failed" },
-          { status: 401 }
-        )
-      }
-      
-      return NextResponse.json(
-        { error: `Analysis failed: ${error.message}` },
-        { status: 500 }
-      )
-    }
-
+    console.error("Error in analyze API:", error)
     return NextResponse.json(
-      { error: "An unexpected error occurred during analysis" },
-      { status: 500 }
+      {
+        error: "Failed to analyze text",
+        message: error instanceof Error ? error.message : "Unknown error occurred",
+        fallacies: [],
+      },
+      { status: 500 },
     )
   }
 }
