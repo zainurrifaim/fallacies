@@ -40,7 +40,11 @@ ${JSON.stringify(misconceptionFramework.treatment_strategies, null, 2)}
 
 ## INSTRUCTIONS
 
+<<<<<<< HEAD
 1. **IDENTIFY MISCONCEPTIONS**: Examine the student response for any misconceptions
+=======
+1. **IDENTIFY MISCONCEPTIONS**: Examine students response for any misconceptions
+>>>>>>> 503e31c310f7ede2ab549302f74d6ed8aa9b48ee
 2. **CLASSIFY USING DATABASE**: Map each misconception to ONE of the five framework categories
 3. **SELECT APPROPRIATE STRATEGIES**: Choose treatment strategies from the database that match the identified misconceptions
 4. **PROVIDE EVIDENCE**: Reference specific examples from the framework database to support your analysis
