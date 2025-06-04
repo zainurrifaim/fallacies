@@ -1,0 +1,69 @@
+{
+  "misconception_categories": [
+    {
+      "category": "Preconceived Notions",
+      "description": "Ideas formed before proper understanding, often based on limited experience.",
+      "examples": ["The sun revolves around the Earth.", "Heavier objects fall faster than lighter objects."]
+    },
+    {
+      "category": "Nonscientific Beliefs",
+      "description": "Beliefs stemming from religion, mythology, or pseudoscience.",
+      "examples": ["Humans and dinosaurs lived at the same time.", "Astrology can predict future events."]
+    },
+    {
+      "category": "Conceptual Misunderstandings",
+      "description": "Errors in understanding fundamental scientific concepts.",
+      "examples": ["Heat and temperature are the same thing.", "Evolution is a linear progression."]
+    },
+    {
+      "category": "Vernacular Misconceptions",
+      "description": "Misunderstandings arising from the everyday use of scientific terms.",
+      "examples": [
+        "The term 'theory' in science means the same as a 'guess'.",
+        "The word 'energy' refers to effort or activity."
+      ]
+    },
+    {
+      "category": "Factual Misconceptions",
+      "description": "Incorrect knowledge of specific scientific facts.",
+      "examples": ["Lightning never strikes the same place twice.", "Shaving hair makes it grow back thicker."]
+    }
+  ],
+  "treatment_strategies": [
+    {
+      "strategy": "Conceptual Change Texts",
+      "description": "Presenting information that directly challenges misconceptions and provides correct explanations.",
+      "implementation": "Provide texts that explicitly address common misconceptions, present the scientifically accurate concept, and offer evidence supporting the correct view.",
+      "duration": "1-2 class periods",
+      "success_rate": "Moderate"
+    },
+    {
+      "strategy": "Bridging Analogies",
+      "description": "Using analogies to connect a student's correct intuitions to the correct scientific concept.",
+      "implementation": "Start with a situation the student understands, then gradually introduce more complex scenarios that bridge the gap to the target concept.",
+      "duration": "Ongoing",
+      "success_rate": "High"
+    },
+    {
+      "strategy": "Refutational Texts",
+      "description": "Presenting and then refuting common misconceptions.",
+      "implementation": "Begin by stating a common misconception, then provide evidence and arguments to refute it, followed by the correct explanation.",
+      "duration": "1 class period",
+      "success_rate": "Moderate to High"
+    },
+    {
+      "strategy": "Inquiry-Based Learning",
+      "description": "Engaging students in hands-on activities and investigations to construct their own understanding.",
+      "implementation": "Design activities that allow students to explore phenomena, collect data, and draw conclusions that challenge their existing misconceptions.",
+      "duration": "Multiple class periods",
+      "success_rate": "High"
+    },
+    {
+      "strategy": "Discussion and Argumentation",
+      "description": "Creating opportunities for students to discuss their ideas and argue for their viewpoints.",
+      "implementation": "Facilitate classroom discussions where students can share their understanding, challenge each other's ideas, and construct a shared understanding of the scientific concepts.",
+      "duration": "Ongoing",
+      "success_rate": "Moderate"
+    }
+  ]
+}
