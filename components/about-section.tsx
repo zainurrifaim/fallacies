@@ -54,46 +54,6 @@ export default function AboutSection() {
           </Card>
         </div>
 
-        <Card className="border-neutral-300 shadow-md mb-12">
-          <CardHeader>
-            <CardTitle className="text-xl text-neutral-950">How to Use This Tool</CardTitle>
-            <CardDescription>Our AI-powered tool analyzes text to identify common logical fallacies.</CardDescription>
-          </CardHeader>
-          <CardContent className="text-neutral-700">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="flex flex-col items-center text-center p-4">
-                <div className="bg-neutral-100 p-3 rounded-full mb-4">
-                  <Search className="w-6 h-6 text-neutral-700" />
-                </div>
-                <h3 className="font-medium text-neutral-950 mb-2">1. Enter Text</h3>
-                <p className="text-sm">
-                  Paste any argument, statement, or reasoning you want to analyze into the text area.
-                </p>
-              </div>
-
-              <div className="flex flex-col items-center text-center p-4">
-                <div className="bg-neutral-100 p-3 rounded-full mb-4">
-                  <Brain className="w-6 h-6 text-neutral-700" />
-                </div>
-                <h3 className="font-medium text-neutral-950 mb-2">2. Analyze</h3>
-                <p className="text-sm">
-                  Our AI will examine the text for logical fallacies using advanced language processing.
-                </p>
-              </div>
-
-              <div className="flex flex-col items-center text-center p-4">
-                <div className="bg-neutral-100 p-3 rounded-full mb-4">
-                  <CheckCircle className="w-6 h-6 text-neutral-700" />
-                </div>
-                <h3 className="font-medium text-neutral-950 mb-2">3. Review Results</h3>
-                <p className="text-sm">
-                  Get detailed explanations of any detected fallacies, including examples and logical forms.
-                </p>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
-
         <div className="bg-neutral-100 rounded-lg p-6 border border-neutral-300">
           <h3 className="text-xl font-semibold text-neutral-950 mb-4">About the Technology</h3>
           <p className="text-neutral-700 mb-4">

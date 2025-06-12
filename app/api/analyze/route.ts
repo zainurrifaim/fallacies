@@ -155,7 +155,7 @@ export async function POST(request: NextRequest) {
     // 3. Build Prompt and Call Groq API
     const prompt = buildPrompt(text)
     const { text: aiResponse } = await generateText({
-      model: groq("llama3-70b-8192"), // Using a more powerful model for better reasoning
+      model: groq("meta-llama/llama-4-scout-17b-16e-instruct"), // Using a more powerful model for better reasoning
       prompt,
       temperature: 0.1, // Lower temperature for more deterministic and factual output
     })
