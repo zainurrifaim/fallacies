@@ -53,6 +53,7 @@ fallaciesData.forEach((fallacy: FullFallacy) => {
  * @returns A string containing the full prompt for the AI model.
  */
 function buildPrompt(text: string, context?: string): string {
+  // OPTIMIZED: Send only the name and description to the AI to save tokens.
   const examplesString = fallaciesData
     .map(
       (f) =>
@@ -167,9 +168,11 @@ export async function POST(request: NextRequest) {
           .map((detected) => {
             if (!detected.name || !detected.explanation || !detected.quote) return null
 
+            // Use the map to get the FULL fallacy details from just the name.
             const fullFallacy = fallacyMap.get(detected.name.toLowerCase())
 
             if (fullFallacy) {
+              // Combine the full details with the AI's specific explanation and quote.
               return {
                 ...fullFallacy,
                 explanation: detected.explanation,
@@ -184,7 +187,7 @@ export async function POST(request: NextRequest) {
     } catch (parseError) {
       console.error("JSON parsing error:", parseError)
       console.error("Raw AI Response that failed parsing:", aiResponse)
-      fallaciesResult = []
+      fallaciesResult = [] // Return empty on parsing error to avoid crashing.
     }
 
     // 5. Return Success Response

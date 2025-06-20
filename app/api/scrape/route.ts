@@ -1,5 +1,6 @@
 import { type NextRequest, NextResponse } from "next/server";
-import * as cheerio from 'cheerio';
+import { JSDOM } from "jsdom";
+import { Readability } from "@mozilla/readability";
 
 // Helper function to validate a URL
 function isValidUrl(string: string) {
@@ -30,47 +31,41 @@ export async function POST(request: NextRequest) {
         });
 
         if (!response.ok) {
-            return NextResponse.json({ error: `Failed to fetch URL. Status: ${response.status}` }, { status: 500 });
+             // Check for common client-side errors
+            if (response.status >= 400 && response.status < 500) {
+                 return NextResponse.json({ error: `Could not access the URL. The site returned a ${response.status} error.` }, { status: response.status });
+            }
+            return NextResponse.json({ error: `Failed to fetch URL. Server returned status: ${response.status}` }, { status: 500 });
         }
 
         const html = await response.text();
 
-        // 3. Use Cheerio to parse the HTML and extract text
-        const $ = cheerio.load(html);
+        // 3. Use JSDOM and Readability.js to parse the HTML and extract the main article
+        // We pass the original URL to JSDOM to help it resolve relative links, which Readability uses.
+        const doc = new JSDOM(html, { url });
+        const reader = new Readability(doc.window.document);
+        const article = reader.parse();
 
-        // Remove elements that are typically not part of the main content
-        $('script, style, noscript, iframe, header, footer, nav, aside, .ad, .advert, .popup').remove();
-
-        // Find the most likely main content container
-        let mainContent = '';
-        const selectors = ['article', 'main', '.post-content', '.article-body', 'div[class*="content"]'];
-        
-        for (const selector of selectors) {
-            if ($(selector).length > 0) {
-                mainContent = $(selector).text();
-                break;
-            }
-        }
-        
-        // As a fallback, use the body if no specific container is found
-        if (!mainContent) {
-            mainContent = $('body').text();
+        // 4. Check if Readability successfully extracted content
+        if (!article || !article.textContent) {
+            return NextResponse.json({ error: 'Could not extract readable content from the URL. The page might not be an article.' }, { status: 422 });
         }
 
-        // 4. Clean up the extracted text
-        // - Replace multiple newlines/spaces with a single space
-        // - Trim leading/trailing whitespace
-        const cleanedText = mainContent.replace(/\s\s+/g, ' ').trim();
-        
-        if (!cleanedText) {
-            return NextResponse.json({ error: 'Could not extract readable content from the URL.' }, { status: 422 });
-        }
+        // 5. Clean up the extracted text content
+        // The textContent from Readability is already quite clean, but we can still normalize whitespace.
+        const cleanedText = article.textContent.replace(/\s+/g, ' ').trim();
 
-        // 5. Return the cleaned text
-        return NextResponse.json({ text: cleanedText });
+        // 6. Return the cleaned text and the article title if available
+        return NextResponse.json({ 
+            text: cleanedText,
+            title: article.title 
+        });
 
     } catch (error) {
         console.error('Error in /api/scrape:', error);
+        if (error instanceof Error && error.message.includes('ECONNREFUSED')) {
+             return NextResponse.json({ error: 'Could not connect to the provided URL. Please check the address and try again.' }, { status: 500 });
+        }
         return NextResponse.json({ error: 'An unexpected error occurred while scraping the URL.' }, { status: 500 });
     }
 }

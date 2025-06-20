@@ -87,7 +87,7 @@
     "logicalForm": "Event A happened, then Event B happened. Therefore, A caused B.",
     "example": "The rooster crows just before the sun rises. Therefore, the rooster's crowing causes the sun to rise.",
     "category": "Fallacies of Presumption",
-    "source": "https://www.scribbr.com/fallacies/causal-fallacy/"
+    "source": "https://www.grammarly.com/blog/rhetorical-devices/causal-fallacy/"
   },
   {
     "name": "Sunk Cost Fallacy",
@@ -132,7 +132,7 @@
     "logicalForm": "Most people believe X is true. Therefore, X is true.",
     "example": "Almost everyone in our neighborhood supports the new zoning law, so it must be a good idea.",
     "category": "Fallacies of Relevance",
-    "source": "https://www.scribbr.com/fallacies/bandwagon-fallacy/"
+    "source": "https://www.grammarly.com/blog/rhetorical-devices/bandwagon-fallacy/?msockid=006eaa9209456da72c30b85808136c6d"
   },
   {
     "name": "Guilt by Association",
@@ -258,7 +258,7 @@
     "logicalForm": "A personal experience or anecdote is presented as evidence for a claim, which is then used to reject a more general or scientifically supported claim.",
     "example": "My grandfather smoked his whole life and lived to be 90, so smoking can't be that bad for you.",
     "category": "Fallacies of Presumption",
-    "source": "https://www.scribbr.com/fallacies/anecdotal-evidence-fallacy/"
+    "source": "https://iep.utm.edu/fallacy/"
   },
     {
     "name": "The Fallacy Fallacy",
